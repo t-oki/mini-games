@@ -43,7 +43,7 @@
           <div class="board-square"></div>
         </div>
         <div class="row">
-          <div class="board-square top-square"></div>
+          <div class="board-square top-square"><span></span></div>
           <div class="board-square"></div>
           <div class="board-square"></div>
           <div class="board-square"><span class="black-stone"></span></div>
@@ -94,7 +94,18 @@ import { Component, Vue } from 'vue-property-decorator'
   components: {},
 })
 export default class Othello extends Vue {
-  line: number[] = [0, 0, 0, 0, 0, 0, 0, 0]
+  board: number[][] = [
+    [0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 1, -1, 0, 0, 0],
+    [0, 0, 0, -1, 1, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0]
+  ]
+
+
 }
 </script>
 
