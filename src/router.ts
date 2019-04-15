@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/views/Home.vue'
-import Othello from '@/views/Othello.vue'
+import Othello from '@/views/othello/Index.vue'
 
 Vue.use(Router)
 

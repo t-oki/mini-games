@@ -1,8 +1,10 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
+    <router-link to="/othello" class="button">
+      <span>othello</span>
+    </router-link>
     <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
-    <h1>hello</h1>
   </div>
 </template>
 
